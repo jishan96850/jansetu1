@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" width="100" height="120">
+  <!-- Green circular top part -->
+  <circle cx="50" cy="50" r="45" fill="#66BB6A"/>
+  
+  <!-- Blue location pin bottom -->
+  <path d="M 15 75 Q 50 105 85 75 L 50 115 Z" fill="#1E3A8A"/>
+  
+  <!-- White handshake in center -->
+  <g transform="translate(50,50)" fill="#FFFFFF">
+    <!-- Left arm/hand coming from top-left -->
+    <path d="M -20 -15 Q -25 -20 -30 -15 Q -35 -10 -25 -5 L -10 5 Q -5 8 0 5 L 15 0" stroke-width="0"/>
+    
+    <!-- Right arm/hand coming from top-right -->
+    <path d="M 15 0 Q 20 -8 30 -5 Q 35 0 35 8 Q 35 15 25 18 L 5 25 Q 0 27 -8 25 L -20 20" stroke-width="0"/>
+    
+    <!-- Interlocked fingers - white oval shapes -->
+    <ellipse cx="-2" cy="8" rx="3" ry="6" fill="#FFFFFF"/>
+    <ellipse cx="5" cy="12" rx="3" ry="6" fill="#FFFFFF"/>
+    <ellipse cx="12" cy="8" rx="3" ry="6" fill="#FFFFFF"/>
+    <ellipse cx="18" cy="5" rx="3" ry="6" fill="#FFFFFF"/>
+    <ellipse cx="22" cy="2" rx="3" ry="6" fill="#FFFFFF"/>
+    
+    <!-- Additional finger details -->
+    <ellipse cx="-8" cy="5" rx="2.5" ry="5" fill="#FFFFFF"/>
+    <ellipse cx="8" cy="15" rx="2.5" ry="5" fill="#FFFFFF"/>
+  </g>
+</svg>
