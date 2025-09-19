@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Green circular top -->
+  <circle cx="16" cy="16" r="14" fill="#4CAF50"/>
+  <!-- Blue location pin bottom -->
+  <path d="M 5 24 Q 16 29 27 24 L 16 32 Z" fill="#1E3A8A"/>
+  <!-- Simple white handshake -->
+  <g transform="translate(16,16)" fill="#FFFFFF">
+    <path d="M -6 -4 Q -8 -6 -9 -4 Q -10 -2 -8 -1 L -3 2 Q -1 3 0 2 L 4 0"/>
+    <path d="M 4 0 Q 6 -3 9 -1 Q 10 0 10 3 Q 10 4 8 5 L 2 7 Q 0 8 -3 7 L -6 6"/>
+    <circle cx="0" cy="3" r="1.5" fill="#FFFFFF"/>
+    <circle cx="2" cy="4" r="1.5" fill="#FFFFFF"/>
+    <circle cx="4" cy="3" r="1.5" fill="#FFFFFF"/>
+    <circle cx="6" cy="2" r="1.5" fill="#FFFFFF"/>
+  </g>
+</svg>
